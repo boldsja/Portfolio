@@ -1,0 +1,20 @@
+*{
+background-color: white;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 2%;
+    margin: 2%;
+}
+
+header{
+    list-style: none;
+    display: inline;
+}
+
+.me{
+    max-width: 25%;
+    max-height: 25%;
+}
