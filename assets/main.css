@@ -1,5 +1,6 @@
 *{
-background-color: white;
+    
+    /* flex-wrap: wrap; */
 }
 
 body{
@@ -7,14 +8,45 @@ body{
     font-size: 16px;
     padding: 2%;
     margin: 2%;
+    flex-wrap: wrap;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+/* code for header links */
+.top{
+    flex-direction: row;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: black;
+    font-size: 125%;
+    border: 2px;
+    border-style: groove;
+    border-color: black;
 }
 
 header{
     list-style: none;
-    display: inline;
+    display: block;
+    margin: 0%;
+    text-align: center;
+    border: 5px;
+    border-style: groove;
+    border-color: black;
 }
+
 
 .me{
     max-width: 25%;
     max-height: 25%;
+    border: 2px;
+    border-style: double;
+    border-color: black;
+    padding: 3px;
+}
+
+h3{
+    display: inline;
+    flex-direction: column;
 }
