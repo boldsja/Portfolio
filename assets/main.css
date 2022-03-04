@@ -36,6 +36,7 @@ header{
     border: 1%;
     border-style: groove;
     border-color: black;
+    
 }
 
 /* Bio */
@@ -48,6 +49,21 @@ header{
     margin:5%;
     font-size: 125%;
 }
+
+.contact{
+    padding: 10px;
+    text-align: left;
+    margin: 2%;
+    margin-top: 10%;
+    background-color:palevioletred;
+
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+}
+
 
 
 /* photo */
@@ -70,6 +86,8 @@ a:visited, a:link{
     color: aliceblue;
 }
 
+
+/* No current projects at this time */
 .projects{
     padding: 10px;
     text-align: center;
@@ -86,17 +104,15 @@ a:visited, a:link{
 #p1{
     background-image: url(./p1.jpg);
     border: 5px;
-    border-color: black;
     margin: 5%;
     padding: 35%;
-    text-align: left;
+    text-align: center;
     text-decoration-color: aliceblue;
 }
 
 #p2{
     background-image: url(./p2.jpg);
     background-size: contain;
-    border-color: black;
     margin: 5%;
     padding: 15%;
     text-align: center;
@@ -106,16 +122,9 @@ a:visited, a:link{
 #p3{
     background-image: url(./p3.jpg);
     background-size:auto;
-    border-color: black;
     margin: 5%;
     padding: 15%;
-    text-align: right;
+    text-align: center;
     text-decoration-color: aliceblue;
 }
 
-
-.contact{
-    padding: 10px;
-    text-align: center;
-    margin: 2%;
-}
