@@ -9,6 +9,6 @@ The purpose of this project is to make the beginnings of my professional portfol
 
 
 ## Link to Final Page
-[Portfolio link to final page](https://boldsja.github.io/semantic-html/) 
+[Portfolio link to final page](https://boldsja.github.io/Portfolio/) 
 
-[Github Repo](https://github.com/boldsja/semantic-html)
+[Github Repo](https://github.com/boldsja/Portfolio)
