@@ -5,7 +5,7 @@ The purpose of this project is to make the beginnings of my professional portfol
 
 ## Screenshot
 
-![Final page screenshot](./assets/images/screenshot.png) 
+![Final page screenshot](./assets/screenshot.png) 
 
 
 ## Link to Final Page
