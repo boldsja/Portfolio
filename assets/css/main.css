@@ -3,6 +3,23 @@
     /* flex-wrap: wrap; */
 }
 
+.p-5{
+        background-image: url(../images/plant.jpg);
+        background-size:cover;
+}
+
+
+
+a:hover{
+    font-style: italic;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+
 main {
     display: flex;
 }
@@ -13,13 +30,13 @@ body{
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
-    background-image: url(../images/background.jpg);
-    background-size: cover;
-    background-attachment: scroll;
+    background-image: url(../images/bg1.jpg);
+    background-size:cover;
+    background-attachment:fixed;
 }
 
 /* code for header links */
-.top{
+/* .top{
     background-color: black;
     font-family: 'Times New Roman', Times, serif;
     text-decoration-color: black;
@@ -27,9 +44,9 @@ body{
     border: 2px;
     border-style: groove;
     border-color: black;
-}
+} */
 
-header{
+/* header{
     list-style: none;
     margin: 0%;
     text-align: center;
@@ -37,7 +54,7 @@ header{
     border-style: groove;
     border-color: black;
     
-}
+} */
 
 /* Bio */
 .aboutme{
@@ -77,18 +94,19 @@ ul{
 }
 
 h3{
-    /* display: block;
-    flex-direction: column; */
- 
+    display: block;
+    flex-direction: column;
 }
 
-a:visited, a:link{
+/* a:visited, a:link{
     color: aliceblue;
-}
+} */
 
 
 /* No current projects at this time */
-.projects{
+.container.projects{
+    display: flex;
+    flex-direction: row;
     padding: 10px;
     text-align: center;
     border-style: solid;
@@ -97,34 +115,41 @@ a:visited, a:link{
     margin: 5%;
 }
 
-#p1:hover, #p2:hover, #p3:hover{
-    font-size: large;
-}
 
 #p1{
     background-image: url(../images/p1.jpg);
-    border: 5px;
+    background-size: cover;
+    /* border: 5px;
     margin: 5%;
-    padding: 35%;
+    padding: 35%; */
     text-align: center;
     text-decoration-color: aliceblue;
 }
 
 #p2{
     background-image: url(../images/p2.jpg);
-    background-size: contain;
-    margin: 5%;
-    padding: 15%;
+    background-size: cover;
+    /* margin: 5%;
+    padding: 15%; */
     text-align: center;
     text-decoration-color: aliceblue;
 }
 
 #p3{
     background-image: url(../images/p3.jpg);
-    background-size:auto;
+    background-size:cover;
+    display: flex;
+    flex-wrap: wrap;
     margin: 5%;
     padding: 15%;
     text-align: center;
     text-decoration-color: aliceblue;
 }
 
+.card{
+    display: flex;
+    width: 18rem;
+    height: 18rem;
+    justify-content: center;
+    align-content: center;
+}
