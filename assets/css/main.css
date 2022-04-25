@@ -69,18 +69,21 @@ body{
 
 .contact{
     padding: 10px;
-    text-align: left;
+    text-align: center;
     margin: 2%;
     margin-top: 10%;
-    background-color:rgba(182, 183, 182, 0.656);
+    background-color:rgba(255, 255, 255, 0.881);
 
 }
 
 ul{
     list-style: none;
-    text-align: left;
+    color: white;
 }
 
+li{
+    color: white;
+}
 
 
 /* photo */
@@ -100,12 +103,7 @@ h3{
     flex-direction: column;
 }
 
-/* a:visited, a:link{
-    color: aliceblue;
-} */
 
-
-/* No current projects at this time */
 .container.projects{
     display: flex;
     flex-direction: row;
@@ -121,12 +119,19 @@ h3{
     display: inline-flex;
 }
 
+#p1{
+    background-image: url(../images/projectbg.jpg);
+    background-size: cover;
+}
+
 .card{
     display: flex;
     width: 18rem;
     height: 18rem;
     justify-items: center;
     align-items: center;
+    background-image: url(../images/projectbg.jpg);
+    background-size: cover;
 }
 
 .card-body{
